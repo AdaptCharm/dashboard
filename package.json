@@ -1,0 +1,25 @@
+{
+  "name": "@adaptcharm/dashboard",
+  "description": "Creates a dashboard.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jamie Isaksen",
+    "email": "jamie@jamie.no"
+  },
+  "license": "UNLICENSED",
+  "main": "dashboard.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+      "url": "git@github.com:AdaptCharm/dashboard.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@adaptcharm/render": "^1.1.1",
+    "express": "^4.17.1",
+    "glob": "^7.1.4"
+  }
+}
